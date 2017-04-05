@@ -441,25 +441,27 @@ function canvas4_1()
 }
   
 
-function canvas4_2() // Outside
+function canvas4_2() // Keypad with the fingerprints
 {
 
+  
   image(C4Keypad,250,80,300,400);
-  //2
+  
+  //fingerprint on #2
   image(C4Fingerprint1,355,85,90,90);
   
-  //3
+  //fingerprint on #3
   image(C4Fingerprint2,455,85,90,90);
 
-  //7
+  //fingerprint on #7
   image(C4Fingerprint2,255,285,90,90);
 
-  //8
+  //fingerprint on #8
   image(C4Fingerprint1,355,285,90,90);
 
   itemGrid();
 
-  //1
+  //keypad #1
   if (mouseX > 250 && mouseX < 350 && mouseY > 80 && mouseY < 180)
   {
     cursor(HAND);
@@ -472,7 +474,7 @@ function canvas4_2() // Outside
     }
   }
 
-  //0
+  //keypad #0
   else if (mouseX > 350 && mouseX < 450 && mouseY > 380 && mouseY < 480)
   {
     cursor(HAND);
@@ -486,7 +488,7 @@ function canvas4_2() // Outside
     }
   }
 
-  //2
+  //keypad #2
   else if (mouseX > 350 && mouseX < 450 && mouseY > 80 && mouseY < 180)
   {
     cursor(HAND);
@@ -499,7 +501,7 @@ function canvas4_2() // Outside
     }
   }
 
-  //3
+  //keypad #13
   else if (mouseX > 450 && mouseX < 550 && mouseY > 80 && mouseY < 180)
   {
     cursor(HAND);
@@ -518,7 +520,7 @@ function canvas4_2() // Outside
     }
   }
 
-  //4
+  //keypad #4s
   else if (mouseX > 250 && mouseX < 350 && mouseY > 180 && mouseY < 280)
   {
     cursor(HAND);
