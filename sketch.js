@@ -1,3 +1,5 @@
+//Eric
+
 var stateOfChoco;
 var moveChocoX;
 var moveChocoY;
@@ -51,7 +53,7 @@ function preload()
 function setup()
 {
   createCanvas(830,600);
-  canvas = 4;
+  canvas = 5;
   
   moveChocoX = 430;
   moveChocoY = 430;
