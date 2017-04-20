@@ -53,7 +53,7 @@ function preload()
 function setup()
 {
   createCanvas(830,600);
-  canvas = 5;
+  canvas = 4;
   
   moveChocoX = 430;
   moveChocoY = 430;
@@ -362,7 +362,7 @@ function canvas4_1()
     }
   }
   
-  //6
+  //keypad #6
   else if (mouseX > 450 && mouseX < 550 && mouseY > 180 && mouseY < 280)
   {
     cursor(HAND);
@@ -375,7 +375,7 @@ function canvas4_1()
     }
   }
   
-  //7
+  //keypad #7
   else if (mouseX > 250 && mouseX < 350 && mouseY > 280 && mouseY < 380)
   {
     cursor(HAND);
